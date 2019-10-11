@@ -14,9 +14,14 @@ def hitung_kecepatan(jarak, waktu):
 kecepatan = hitung_kecepatan(1000, 5 * 60)
 kecepatan = hitung_kecepatan(3000, 15 * 60)
 
-massa = 20
-gravitasi = 9.8
-berat = massa * gravitasi
+def hitung_berat(massa, gravitasi):
+    berat = massa * gravitasi
+    print(f'massa = {massa}kg dengan gravitasi = {gravitasi}')
+    print(f'sehingga beratnya = {berat} N')
+    return massa * gravitasi
 
-print(f'massa = {massa}kg dengan gravitasi = {gravitasi }')
-print(f'sehingga beratnya = {berat} N')
+
+# massa = 20
+# gravitasi = 9.8
+berat = hitung_berat(20, 9.8)
+berat = hitung_berat(99, 9.8)
