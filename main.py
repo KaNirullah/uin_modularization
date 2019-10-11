@@ -14,3 +14,9 @@ def hitung_kecepatan(jarak, waktu):
 kecepatan = hitung_kecepatan(1000, 5 * 60)
 kecepatan = hitung_kecepatan(3000, 15 * 60)
 
+massa = 20
+gravitasi = 9.8
+berat = massa * gravitasi
+
+print(f'massa = {massa}kg dengan gravitasi = {gravitasi }')
+print(f'sehingga beratnya = {berat} N')
